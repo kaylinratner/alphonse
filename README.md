@@ -30,7 +30,7 @@ names(alphonse_palettes)
 ``` r
 # My Hero Academia -- Deku
 
-![](Figures/mhadeku.png)
+![](https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png)
 
 # show colors in palette
 show_col(alphonse_palettes$mhadeku)
