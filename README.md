@@ -32,7 +32,7 @@ names(alphonse_palettes)
 </p>
 
 ```r
-# show colors in palette
+# show ordering of colors in palette
 show_col(alphonse_palettes$mhadeku)
 ```
 
