@@ -27,14 +27,15 @@ names(alphonse_palettes)
 
 ## Color palettes
 
-``` r
-# My Hero Academia -- Deku
+### My Hero Academia -- Deku
 
 ![](https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png)
 
+```r
 # show colors in palette
 show_col(alphonse_palettes$mhadeku)
-
+```
+```r
 # plot example
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
