@@ -27,8 +27,6 @@ names(alphonse_palettes)
 
 ## Six-color palettes
 
-### My Hero Academia -- Deku
-
 <p align="center">
   <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png" width="500" height="500">
 </p>
