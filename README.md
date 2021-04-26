@@ -29,7 +29,9 @@ names(alphonse_palettes)
 
 ### My Hero Academia -- Deku
 
-<center><img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png" width="300" height="300"></center>
+<p align="center">
+  <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png" width="300" height="300">
+</p>
 
 ```r
 # show colors in palette
