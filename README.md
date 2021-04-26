@@ -37,6 +37,11 @@ names(alphonse_palettes)
 # show colors in palette
 show_col(alphonse_palettes$mhadeku)
 ```
+
+<p align="center">
+  <img src="https://github.com/kaylinratner/alphonse/blob/main/Color%20Palette%20Figures/mhadekupalette.jpg">
+</p>
+
 ```r
 # plot example
 ggplot(iris, aes(x = Sepal.Length)) +
@@ -50,3 +55,6 @@ ggplot(iris, aes(x = Sepal.Length)) +
                                   face = "bold"),
         plot.subtitle = element_text(hjust = 0.5, face = "italic"))
 ```
+<p align="center">
+  <img src="https://github.com/kaylinratner/alphonse/blob/main/Graph%20Examples/mhadekugraph.png">
+</p>
