@@ -25,11 +25,9 @@ names(alphonse_palettes)
 # [17] "mha"       "demon"     "mob"       "naruto"    "madoka"
 ```
 
-## Color palettes
+## Six-color palettes
 
-### Six-color palettes
-
-#### My Hero Academia -- Deku
+### My Hero Academia -- Deku
 
 <p align="center">
   <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/mhadeku.png" width="500" height="500">
