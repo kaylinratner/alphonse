@@ -43,7 +43,7 @@ show_col(alphonse_palettes$mhadeku)
 </p>
 
 ```r
-# plot example
+# quick plot example
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'mhadeku'", 
