@@ -14,7 +14,7 @@ library(scales)
 
 ## Usage
 
-Here is a list of all the palette options currently available. Each name loosely follows the show or character it was inspired by. Colors in the list are prioritized based on centrality to show/character identity and contrast.
+Here is a list of all the palette options currently available. Each name loosely follows the show or character it was inspired by. Colors in the list are prioritized based on centrality to show/character identity and contrast. Palette examples are divided into six- and eight-color palette options.
 
 ``` r
 library(alphonse)
