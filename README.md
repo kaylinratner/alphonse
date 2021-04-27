@@ -42,8 +42,6 @@ show_col(alphonse_palettes$mhadeku)
 
 ```r
 # quick plot example
-# note: only some of the subtitles in the graph examples are direct quotes from characters/shows.
-
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'mhadeku'", 
@@ -179,7 +177,7 @@ show_col(alphonse_palettes$aot)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'aot'", 
-          subtitle = "Don't pick favorite characters in this show.\n") +
+          subtitle = "I don't think there's any one person who's good for everyone.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("aot")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -228,7 +226,7 @@ ggplot(iris, aes(x = Sepal.Length)) +
 <hr>
 
 <p align="center">
-  <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/drstone.png" width="400" height="400">
+  <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/stone.png" width="400" height="400">
 </p>
 
 ```r
@@ -245,7 +243,7 @@ show_col(alphonse_palettes$stone)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'stone'", 
-          subtitle = "It's probably better that you don't know what's in the revival fluid.\n") +
+          subtitle = "Get excited.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("stone")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -261,7 +259,7 @@ ggplot(iris, aes(x = Sepal.Length)) +
 <hr>
 
 <p align="center">
-  <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/fire.png" width="400" height="400">
+  <img src="https://github.com/kaylinratner/alphonse/blob/main/Figures/ff.png" width="400" height="400">
 </p>
 
 ```r
@@ -344,7 +342,7 @@ show_col(alphonse_palettes$hxh)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'hxh'", 
-          subtitle = "'Keeping up with the Zoldycks' is the show we never knew we needed.\n") +
+          subtitle = "Bad move, little ant.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("hxh")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -377,7 +375,7 @@ show_col(alphonse_palettes$haikyuu)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'haikyuu'", 
-          subtitle = "Make way for the king.\n") +
+          subtitle = "Talent is something you bloom. Instinct is something you polish.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("haikyuu")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -410,7 +408,7 @@ show_col(alphonse_palettes$clover)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'clover'", 
-          subtitle = "Yuno would have made a better protagonist. \n") +
+          subtitle = "You trust people way too easily.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("clover")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -443,7 +441,7 @@ show_col(alphonse_palettes$jojo)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'jojo'", 
-          subtitle = "DIOOOOOOOOOOOO! \n") +
+          subtitle = "DIOOO!\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("jojo")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -476,7 +474,7 @@ show_col(alphonse_palettes$pokemon)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'pokemon'", 
-          subtitle = "Yes, Pokemon is an anime.\n") +
+          subtitle = "I choose you!\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("pokemon")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -509,7 +507,7 @@ show_col(alphonse_palettes$onepiece)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'onepiece'", 
-          subtitle = "I will become the Pirate King!\n") +
+          subtitle = "I will become the Pirate King.\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("onepiece")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -542,7 +540,7 @@ show_col(alphonse_palettes$dbz)
 ggplot(iris, aes(x = Sepal.Length)) +
   theme_classic() +
   ggtitle(label = "Density with 'dbz'", 
-          subtitle = "The power of the spirit bomb.\n") +
+          subtitle = "It's over 9,000!\n") +
   geom_density(aes(fill = factor(Species)), alpha=0.8) +
   scale_fill_manual(values = alphonse("dbz")) +
   theme(plot.title = element_text(hjust = 0.5,
@@ -715,7 +713,7 @@ show_col(alphonse_palettes$madoka)
 ggplot(mtcars, aes(x = factor(carb))) +
   theme_classic() +
   ggtitle(label = "Barplots with 'madoka'", 
-          subtitle = "...M-Mami?\n") +
+          subtitle = "I'm not alone anymore.\n") +
   geom_bar(aes(color = factor(carb), fill = factor(carb))) +
   scale_color_manual(values = alphonse("madoka")) +
   scale_fill_manual(values = alphonse("madoka")) +
