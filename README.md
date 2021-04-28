@@ -197,7 +197,7 @@ ggplot(iris, aes(x = Sepal.Length)) +
 </p>
 
 ```r
-# show ordering of colors in (full metal alchemist) palette
+# show ordering of colors in (fullmetal alchemist) palette
 show_col(alphonse_palettes$fma)
 ```
 
