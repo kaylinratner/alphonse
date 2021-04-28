@@ -22,7 +22,7 @@ alphonse_palettes <- list(
   jjk = c("#e29287", "#283874", "#bde2e8", "#b81f22", "#cdc76f", "#1d1928"),
   # attack on titan
   aot = c("#757e69", "#a88a80", "#523c31", "#b0382a", "#787880", "#ebe7dc"),
-  # full metal alchemist
+  # fullmetal alchemist
   fma = c("#ddbb64", "#a44549", "#7f9ca2", "#101010", "#46b5ed", "#564533"),
   # dr. stone
   stone = c("#4b8c64", "#a5d0b4", "#dfead9", "#a6605e", "#505c8e", "#f1d188"),
